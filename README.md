@@ -1,5 +1,6 @@
 # AutoData-Collection
 ## 定时自动执行订阅内容的收集任务
+## 防丢链接：https://vpn66.filegear-sg.me/
 ### 声明
 
 1.所有内容均来自与互联网公开引用资源，脚本仅执行收集和整理流程。
@@ -36,6 +37,10 @@ https://raw.githubusercontent.com/acymz/AutoData/main/data/lives.txt
 ```
 https://raw.githubusercontent.com/acymz/AutoData/main/data/V2.txt
 ```
+阅读接口_书源：
+```
+https://raw.githubusercontent.com/acymz/AutoData/main/data/book.txt
+```
 ### 鸣谢
 
 TVBox接口_肥猫_Author: https://肥猫.live/
@@ -47,3 +52,5 @@ TVBox接口_饭太硬_Author: http://饭太硬.com/
 DIYP接口_直播源_Author: https://github.com/ssili126/tv
 
 网上学科接口_V2ray_Author: https://github.com/peasoft/NoMoreWalls
+
+阅读接口_书源_Author：https://github.com/shidahuilang/shuyuan
