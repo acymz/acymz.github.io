@@ -11,7 +11,9 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x' # Specify the Python version you want to use
+        python-version: '3.x'
+    - name: Install dependencies
+      run: pip install requests
     - name: Download README
       run: python push.py
     - name: Commit and Push
