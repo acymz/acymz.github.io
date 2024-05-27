@@ -1,0 +1,23 @@
+name: Update README.md
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x' # Specify the Python version you want to use
+    - name: Download README
+      run: python ./.github/scripts/push.py
+    - name: Commit and Push
+      run: |
+        git config --global user.name "acymz"
+        git config --global user.email "cymz6@hotmail.com"
+        git add README.md
+        git commit -m "Update README.md"
+        git push
